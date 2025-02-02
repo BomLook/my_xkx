@@ -1,0 +1,32 @@
+baseURL = "https://BomLook.github.io/my_repo/"
+languageCode = 'zh'
+title = 'Marlowe'
+theme = 'hugo-theme-ladder'
+publishDir = "public"
+[params]
+  brand = "HOME"
+  author = "Marlowe"
+  authorDescription = "阅读｜思考｜记录｜产出"
+  info = "记录一些自己的学习历程，身边的人和事"
+  darkModeTheme = "data-dark-mode"
+
+  [params.options]
+    showDarkMode = true
+    enableImgZooming = true
+    showMetaTags = true
+
+
+[[menu.main]]
+  name = "主页"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+
+[[menu.main]]
+  name = "收集"
+  url = "/collections/"
+  weight = 3
